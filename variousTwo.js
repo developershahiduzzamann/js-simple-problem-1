@@ -28,4 +28,9 @@ function numberOfElement(numbers) {
     const len = numbers.length;
     return len;
 }
-console.log(numberOfElement([11, 12, 13, 14, 15]));
+// console.log(numberOfElement([11, 12, 13, 14, 15]));
+
+function getAge(person){
+    const age = person.age;
+    return age;
+}
