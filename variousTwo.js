@@ -16,10 +16,16 @@ function dubleOrTriple(number, doDuble){
           return result;
     }
     else{
-        const result = number * 3;
-        return result
+          
     }
       
 }
-console.log(dubleOrTriple(5, true));
-console.log(dubleOrTriple(5, false));
+// console.log(dubleOrTriple(5, true));
+// console.log(dubleOrTriple(5, false));
+
+
+function numberOfElement(numbers) {
+    const len = numbers.length;
+    return len;
+}
+console.log(numberOfElement([11, 12, 13, 14, 15]));
