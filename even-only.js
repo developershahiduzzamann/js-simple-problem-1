@@ -2,7 +2,7 @@ function evenNumbersOnly(numbers){
     const evens =[];
     for(const number of numbers){
         if(number %2 === 0){
-            // console.log(number);
+            console.log(number);
             evens.push(number);
         }
     }
