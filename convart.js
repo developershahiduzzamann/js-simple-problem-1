@@ -15,4 +15,12 @@ function inchToFeet2(inch){
 
 }
 const sabbirHeight2 = inchToFeet2(75);
-console.log(sabbirHeight2);
+// console.log(sabbirHeight2);
+
+
+function mileToKolometer(mile){
+    const kilo = mile * 1.60934;
+    return kilo
+}
+const kilome = mileToKolometer(45);
+console.log(kilome);
