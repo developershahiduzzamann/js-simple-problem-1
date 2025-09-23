@@ -23,4 +23,12 @@ function mileToKolometer(mile){
     return kilo
 }
 const kilome = mileToKolometer(45);
-console.log(kilome);
+// console.log(kilome);
+
+
+function kilomiterTOMile(kilo){
+    const mile = kilo * 0.621371;
+    return mile
+}
+const ml = kilomiterTOMile(45);
+console.log(ml);
