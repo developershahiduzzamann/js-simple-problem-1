@@ -31,4 +31,4 @@ function kilomiterTOMile(kilo){
     return mile
 }
 const ml = kilomiterTOMile(45);
-console.log(ml);
+// console.log(ml);
